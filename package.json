@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "purescript-halogen-webpack-template",
   "version": "1.0.0",
   "description": "Purescript halogen template with webpack",
   "license": "MIT",
