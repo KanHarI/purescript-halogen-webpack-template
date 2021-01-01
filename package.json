@@ -18,7 +18,7 @@
   "scripts": {
     "install": "spago install",
     "build": "spago build && webpack --mode=production",
-    "serve": "concurrently --kill-others \"spago build --watch\" \"webpack serve --mode=development\" ",
+    "serve": "spago build && concurrently --kill-others \"spago build --watch\" \"webpack serve --mode=development\" ",
     "test": "spago test"
   }
 }
