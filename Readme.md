@@ -1,9 +1,9 @@
 A template for working with purescript and halogen, and using webapck as bundler.
 
 <i>Note for windows users:
-The installation appears to be buggy, and also installing additional packages
-with spago is. If you encounter a Permission Denied on FileMoveEx -  close 
-your editors (vs code, sublime, webstorm, etc.) and than installing from 
+The installation appears to be buggy, and also installing additional purescript
+packages with spago is. If you encounter a Permission Denied on FileMoveEx -
+close your editors (vs code, sublime, webstorm, etc.) and than installing from 
 command line. After dependency installation is done, there does not appear to
 be any more problems with a windows setup.</i>
 
