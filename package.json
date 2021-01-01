@@ -17,8 +17,8 @@
   },
   "scripts": {
     "install": "spago install",
-    "build": "spago bundle-app -t output/index.js && webpack --mode=production",
-    "serve": "spago build && concurrently --kill-others \"spago build --watch\" \"webpack serve --mode=development\" ",
+    "build": "spago bundle-app -t output/index.js && webpack --mode=production --entry=./dev/loader_prod.js",
+    "serve": "spago build && concurrently --kill-others \"spago build --watch\" \"webpack serve --mode=development --entry=./dev/loader_dev.js\" ",
     "test": "spago test"
   }
 }
